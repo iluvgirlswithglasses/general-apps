@@ -1,6 +1,6 @@
 
 /*
-author:		iluvgirlswithglasses 
+author: 	iluvgirlswithglasses 
 github: 	https://github.com/iluvgirlswithglasses 
 {{date}}
 tab-width:	4 spaces
