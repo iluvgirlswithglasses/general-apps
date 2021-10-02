@@ -1,7 +1,0 @@
-use youtube dl instead
-
-its much easier
-
-execute "youtube-dl <link>" from shell
-
-and its done
