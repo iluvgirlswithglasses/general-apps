@@ -1,0 +1,19 @@
+
+#begin-time {
+    font-size: 1.25rem;
+}
+
+#begin-time > span {
+    color: var(--em-font-color);
+}
+
+#begin-time-reset {
+    color: var(--muted-font-color);
+    padding-left: 1rem;
+    cursor: pointer;
+    transition: color 400ms;
+}
+
+#begin-time-reset:hover {
+    color: var(--main-font-color);
+}

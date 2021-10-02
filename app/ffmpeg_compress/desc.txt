@@ -1,0 +1,42 @@
+
+Đây là app automate hoạt động nén media files dành cho các collectors.
+
+
+Với sự hỗ trợ ảo diệu từ ffmpeg,
+
+chúng ta có thể nén những file bluray RIP với chất lượng cao nhất
+thành những file có dung lượng của những DVD RIP 720x480.
+
+Sản phẩm cho ra vẫn giữ được indistinguishable quality 
+(tin tui đi tui có viết chương trình cho mấy ông test).
+
+Nét thì còn nguyên.
+Màu sắc thì vẫn tươi tắn nổi bật, tận dụng triệt để cái màn hình 100% sRGB của bạn.
+Audio thì nguyên gốc.
+Chỉ có subtitles thì bị lỗi font-style mà tui chưa biết sửa. Lỗi tại mkvmerge :V
+
+
+Tuy nhiên, trong trường hợp không-lý-tưởng-lắm,
+tầm 10-20 bản RIP sẽ có 1 bản,
+ffmpeg sẽ không muốn hợp tác với những bản này
+và làm cho chất lượng trước và sau khi compress trở nên phân-biệt-được.
+Điển hình là bản "Ookami to Kyoushinryou II" của Coalgirls.
+Xui lắm mới bị thôi :V
+
+
+Đọc hướng dẫn sử dụng tại 'manual.txt'
+
+
+---------------------------------
+
+Một số tính năng đi kèm:
+
+	Để so sánh chất lượng của file gốc và file sau compress,
+	sử dụng 'comparator/'.
+	Thật ra nó đơn giản là chạy 2 media files cùng lúc thôi ;)
+	Tui cũng đã chuẩn bị sẵn một số files để so sánh trong 'media_comparator/compare_resources/',
+	quý vị có thể chiêm ngưỡng sự vi diệu của ffmpeg với chúng nó.
+
+	Để rename nhanh subtrack sau khi extract phụ đề với mkvcleaver,
+	sử dụng 'rensub/'.
+

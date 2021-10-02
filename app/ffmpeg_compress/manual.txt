@@ -1,0 +1,12 @@
+cách dùng:
+
+	Ghi các thư mục cần compress thành từng hàng trong '_inp/',
+	mỗi thư mục đó cần có một thư mục con tên 'src/'
+
+	ffmpeg_compress sẽ nén toàn bộ files trong 'src/' rồi lưu vào trong thư mục cha
+
+
+options and configurations:
+
+	uncomment dòng cuối cùng của 'run.py' để shutdown máy tính sau khi complete compressing
+

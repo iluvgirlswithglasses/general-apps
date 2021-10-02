@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ss/ss.css">
+    <title>New Tab</title>
+    <style>
+        @font-face {
+            font-family: Montserrat;
+            font-weight: normal;
+            src: url("font/Montserrat-Regular.ttf");
+        }
+        @font-face {
+            font-family: Montserrat;
+            font-weight: bold;
+            src: url("font/Montserrat-Bold.ttf");
+        }
+    </style>
+</head>
+<body style="
+    background-image: url('bg/bg.png');
+    background-position-x: center;
+    background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;">
+    <img id="border-top" class="border" src="border/bordertop.png">
+    <div id="clock">
+        <div class="item-border">
+            <div id="clock-hr"></div>
+        </div>
+        <div class="divider">:</div>
+        <div class="item-border">
+            <div id="clock-min"></div>
+        </div>
+        <div class="divider">:</div>
+        <div class="item-border">
+            <div id="clock-sec"></div>
+        </div>
+    </div>
+    <img id="border-bot" class="border" src="border/borrderbot.png">
+    <p id="date"></p>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/js.js"></script>
+</html>

@@ -1,0 +1,76 @@
+
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+#card-view {
+    position: fixed;
+    box-sizing: inherit;
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card-effect {
+    width: 100%;
+    min-height: 8rem;
+    font-size: 1.5rem;
+
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 1rem;
+    background-color: rgb(40, 40, 40);
+}
+
+#card-effect > p {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#card-zoom {
+    display: none;
+    box-sizing: initial;
+    position: fixed;
+    width: 66%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#card-zoom > .close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    color: white;
+    font-size: 4rem;
+    cursor: pointer;
+}
+
+#card-zoom > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.deck {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.deck > .yugioh-card {
+    display: block;
+    width: 12.5%;
+    height: auto;
+    user-select: none;
+    cursor: pointer;
+}

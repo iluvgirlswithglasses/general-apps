@@ -1,0 +1,11 @@
+
+{
+  "name": "newtab",
+  "description": "Overrides the new tab page",
+  "version": "1.0",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "base.html"
+  },
+  "manifest_version": 2
+}

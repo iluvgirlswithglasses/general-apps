@@ -1,0 +1,12 @@
+:root {
+    --main-background-color: #000000;
+    --em-background-color: #2c382c;
+    --secondary-background-color: #333333;
+    --third-background-color: #444444;
+
+    --main-font-color: #dddddd;
+    --em-font-color: #96b396;
+    --alt-em-font-color: #de7272;
+    --error-font-color: #ff0c0c;
+    --muted-font-color: #727272;
+}

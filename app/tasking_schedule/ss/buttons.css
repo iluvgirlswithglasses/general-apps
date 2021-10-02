@@ -1,0 +1,20 @@
+
+.prim-btn {
+	padding: 0.5rem 0;
+	cursor: pointer;
+
+	font-weight: bold;
+
+	color: var(--em-font-color);
+	background: var(--em-background-color);
+	border: solid 1px var(--em-font-color);
+
+	transition: color, background-color, border;
+	transition-duration: 400ms;
+}
+
+.prim-btn:hover {
+	color: var(--em-background-color);
+	background: var(--em-font-color);
+	border: solid 1px var(--em-background-color);
+}

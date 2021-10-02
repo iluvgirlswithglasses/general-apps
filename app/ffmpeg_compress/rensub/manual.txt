@@ -1,0 +1,4 @@
+Ghi từng thư mục cần rename subtitle_tracks thành từng hàng trong rensub.inp,
+mỗi thư mục đó cần có một thư mục con tên 'src/'
+
+rensub.py sẽ rename tất cả subtrack .unknown trong 'src/' rồi lưu vào thư mục cha

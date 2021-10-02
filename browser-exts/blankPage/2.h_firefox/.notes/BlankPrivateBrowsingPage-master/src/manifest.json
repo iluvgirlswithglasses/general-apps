@@ -1,0 +1,24 @@
+{
+    "description": "A blank page for the private browsing page",
+    "manifest_version": 2,
+    "name": "Blank Private Browsing Page",
+    "version": "2.2",
+    "homepage_url": "https://github.com/bbo2adwuff/BlankPrivateBrowsingPage",
+    "icons": {
+	"64": "icon.png"
+    },
+
+    "permissions": [
+	"tabs", "webRequest", "webRequestBlocking", "https://example.com/*"
+    ],
+
+    "background": {
+	"scripts": ["background.js"]
+    },
+
+    "applications": {
+	"gecko": {
+	    "strict_min_version": "60.0"
+	}
+    }
+}

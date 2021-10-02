@@ -1,0 +1,1 @@
+taskkill /IM "League of Legends.exe" /T /F

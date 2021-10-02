@@ -1,0 +1,1 @@
+mkvmerge -o ${file_out} --audio-tracks ${audio_track_id} --subtitle-tracks ${sub_track_id} ${file_inp}

@@ -1,0 +1,79 @@
+
+/**
+ * root
+ * */
+html {
+	background-color: var(--dark1);
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body * {
+	color: var(--white1);
+}
+
+/**
+ * sects
+ * */
+#settings,
+#settings .setting {
+	display: flex;
+	flex-direction: row;
+}
+
+.setting label {
+	margin-right: 0.75rem;
+}
+
+.setting input {
+	margin-right: 2rem;
+	background-color: var(--dark2);
+	border: solid 1px var(--white3);
+}
+
+.setting button {
+	background-color: var(--dark2);
+	border: solid 1px var(--white3);
+}
+
+#data {
+	display: block;
+}
+
+#data > div {
+	display: flex;
+}
+
+#data button {
+	min-width: 4rem;
+}
+
+#data input {
+	min-width: 12rem;
+}
+
+/**
+ * mat
+ * */
+#matrix {
+	width: max-content;
+	height: max-content;
+	margin-left: auto;
+	margin-right: auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#matrix .cell {
+	margin: -1px;
+	border: solid 1px var(--white3);
+	padding: 0;
+
+	background-color: var(--dark2);
+
+	text-align: center;
+}

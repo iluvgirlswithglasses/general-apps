@@ -1,0 +1,39 @@
+
+.task {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+    align-items: center;
+    background-color: var(--secondary-background-color);
+    transition: background-color 400ms;
+
+    margin-bottom: 1rem;
+}
+
+.task:hover {
+    background-color: var(--third-background-color);
+}
+
+.task .on-progress-task {
+    cursor: pointer;
+}
+
+.task * {
+    font-size: 1.25rem;
+}
+
+.task > p {
+    flex: 1;
+    color: var(--em-font-color);
+}
+
+.task .task-delete-button {
+    color: var(--alt-em-font-color);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.task .completed-task > p {
+    color: var(--muted-font-color);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- not yet reponsive -->
+<head>
+    <meta charset="UTF-8">
+    <title>Tasking Schedule</title>
+
+    <link rel="stylesheet" href="ss/root.css">
+    <link rel="stylesheet" href="ss/body.css">
+    <link rel="stylesheet" href="ss/buttons.css">
+    <link rel="stylesheet" href="ss/begin_time.css">
+    <link rel="stylesheet" href="ss/input.css">
+    <link rel="stylesheet" href="ss/task.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tasking Schedule</h1>
+        <p id="begin-time">Begin from <span></span> <a id="begin-time-reset">reset</a></p>
+    </header>
+
+    <!-- -->
+    <div id="adding-task" class="sect">
+        <h2>Add a Task</h2>
+        <div id="adding-task-comps">
+            <button id="add-task-submit" class="prim-btn">Add</button>
+            <input id="add-task-name-input">
+        </div>
+    </div>
+
+    <!-- -->
+    <h2>On Progress</h2>
+    <div id="on-progress-task-list" class="sect">
+
+    </div>
+
+    <!-- -->
+    <h2>Completed</h2>
+    <div id="completed-task-list" class="sect">
+
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/main.js"></script>
+</html>

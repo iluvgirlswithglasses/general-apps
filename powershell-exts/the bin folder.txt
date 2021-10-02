@@ -1,0 +1,3 @@
+I just realize that scripts can be execute without being compiled
+
+so... what are we gonna do with the bin folder ?

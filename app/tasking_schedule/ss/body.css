@@ -1,0 +1,33 @@
+body {
+    background-color: var(--main-background-color);
+    margin: 0;
+    padding: 2rem 12rem;
+}
+
+body * {
+    color: var(--main-font-color);
+    font-family: Calibri;
+}
+
+header {
+    margin-bottom: 3.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: solid 2px var(--secondary-background-color);
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--em-font-color);
+    font-family: Montserrat;
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: var(--alt-em-font-color);
+    font-family: Montserrat;
+    margin-bottom: 1rem;
+}
+
+.sect {
+    margin-bottom: 3rem;
+}

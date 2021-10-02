@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "version": "2.6",
+  "name": "mika ~edgetheme~",
+  "theme": {
+    "colors": {
+      "frame": [13, 18, 21],
+      "toolbar": [29, 35, 42],
+      "tab_background": [13, 18, 21],
+      "tab_text": [216, 222, 233],
+      "bookmark_text": [216, 222, 233],
+      "background_tab_text": [150, 172, 185],
+      "buttons": [216, 222, 233],
+      "control_buttons": [13, 18, 21]
+    }
+  }
+}

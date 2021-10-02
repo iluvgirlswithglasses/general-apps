@@ -1,0 +1,50 @@
+html {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: #1d232a;
+
+    margin: 0;
+}
+
+body {
+    margin: 2rem 4rem;
+}
+
+body * {
+    color: #d8dee9;
+}
+
+h1 {
+    color: #5d99cc;
+}
+
+.lst {
+    margin-left: 1rem;
+}
+
+.lst a {
+    transition: color 200ms;
+}
+
+.lst a:hover {
+    color: #84bff2;
+}
+
+
+/**
+
+*/
+.download-link {
+    margin-bottom: 0.5rem;
+}
+
+.download-link a {
+    text-decoration: none;
+}
+
+.divider {
+    width: 12rem;
+    border-bottom: solid 1px #bbb;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+}

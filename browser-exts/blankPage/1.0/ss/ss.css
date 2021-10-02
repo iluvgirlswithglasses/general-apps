@@ -1,0 +1,78 @@
+
+body {
+	background-color: rgba(0, 0, 0, 1);
+    margin: 0;
+    padding-top: 7.5rem;
+}
+
+.border {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    user-select: none;
+}
+
+#border-top {
+    margin-top: 4rem;
+}
+
+#border-bot {
+    margin-bottom: 4rem;
+}
+
+#clock {
+    display: flex;
+    width: max-content;
+    margin: 2rem auto;
+    font-family: Montserrat;
+    font-size: 8rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 1.5rem;
+    background: none;
+    text-shadow: 0.5rem 0.5rem #222222;
+    cursor: default;
+    user-select: none;
+}
+
+#clock > .item-border {
+    width: 12rem;
+}
+
+#clock > .item-border > * {
+    text-align: left;
+}
+
+#clock > .divider {
+    content: ":";
+    font-weight: normal;
+    padding: 0 1.25rem;
+}
+
+#date {
+    display: block;
+    font-family: "Calibri Light";
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #ffffff;
+    text-align: center;
+    width: max-content;
+    padding: 0.25rem 4rem;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 400ms;
+    user-select: none;
+}
+
+#date > span {
+    font-family: Calibri;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#date:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+

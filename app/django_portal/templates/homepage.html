@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAN portal</title>
+    <link rel="stylesheet" href="{% static 'ss/darktheme.css' %}">
+</head>
+<body>
+    <!-- header -->
+    <div class="desc">
+        <h1>mikaPortal</h1>
+        <div class="lst">Just a place to transfer my files<br>
+           Google Drive and similar sites are stupid<br>
+           Generating torrent for one-time use is dumb<br>
+           So I created this
+        </div>
+    </div>
+    <div class="divider"></div>
+
+    <!-- paste bin -->
+    <h1>./paste-bin</h1>
+    <div class="lst">
+        <!-- nothing to show here -->
+        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
+    </div>
+    <div class="divider"></div>
+
+    <!-- content -->
+    <span style="display: block; color: #888888;">Click any file below to download</span>
+    {% for folder, files in lst.items %}
+        <h1>'/{{ folder }}' index</h1>
+
+        <div class="lst">
+            {% for f in files %}
+                {% with 'f/'|add:folder|add:'/'|add:f as url %}
+                    <div class="download-link"><a download href="{% static url %}">{{ f }}</a></div>
+                {% endwith %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</body>
+</html>

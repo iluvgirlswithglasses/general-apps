@@ -1,0 +1,4 @@
+so sánh .installation giữa các drives với nhau
+
+cấu hình trực tiếp trên comparator.py
+thêm exclusion trong exclusion.txt
