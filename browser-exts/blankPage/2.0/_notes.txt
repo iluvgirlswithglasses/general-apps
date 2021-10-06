@@ -1,4 +1,0 @@
-this has a repository on github
-
-name:
-the-neat-blank-page
