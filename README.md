@@ -1,1 +1,1 @@
-these apps serve general purposes
+these apps serve personal and general purposes
