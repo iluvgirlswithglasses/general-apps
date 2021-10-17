@@ -1,1 +1,8 @@
-persistent darktheme
+-- about:config
+layout.css.moz-document.content.enabled		false
+
+-- loc	
+C:\Users\luuna\AppData\Roaming\Mozilla\Firefox\Profiles
+
+-- ref
+https://support.mozilla.org/en-US/questions/1287312
