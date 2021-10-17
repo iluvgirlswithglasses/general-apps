@@ -8,8 +8,21 @@
 
 /* custom about:privatebrowsing cuz it's too ugly */
 @-moz-document url(about:privatebrowsing) {
+    html, body { 
+        background: #1c1b22; 
+    }
+
+    @font-face {
+        font-family: itc;
+        src: url("font/ITCEDSCR.TTF");
+    }
+    
+    /* config */
     :root {
+        /* background size */
         --bg-size: 320px;
+        /* message size */
+        --ms-size: 3.25rem;
     }
 
     /* turn of all texts */
@@ -54,8 +67,9 @@
         display: block;
         width: 100%;
 
-        content: "Wanna go somewhere without anyone knowing, huh?";
+        content: "Wanna go somewhere without anyone knowing, huh ?";
+        font-family: itc;
         text-align: center;
-        font-size: 1.5rem !important;
+        font-size: var(--ms-size) !important;
     }
 }
