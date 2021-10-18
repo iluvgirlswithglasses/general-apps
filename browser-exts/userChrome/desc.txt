@@ -1,5 +1,5 @@
 -- about:config
-layout.css.moz-document.content.enabled		false
+layout.css.moz-document.content.enabled		true
 
 -- loc	
 C:\Users\luuna\AppData\Roaming\Mozilla\Firefox\Profiles
