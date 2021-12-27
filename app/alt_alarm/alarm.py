@@ -21,7 +21,8 @@ def run(secs: int, track_path: str):
 
 
 if __name__ == '__main__':
-    alarm_cd = calc_time(input("Alarm at (HHMM)(24h format): "))
+    alarm_at = input("Alarm at (HHMM)(24h format): ")
     track_path = input("Alarm sound: ")
+    alarm_cd = calc_time(alarm_at)
     print(f"alarm is set for {alarm_cd} secs !")
     run(alarm_cd, track_path)
