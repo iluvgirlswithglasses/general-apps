@@ -19,7 +19,7 @@ def calc_time(at: str):
 # drivers
 def run(secs: int, track_path: str):
     time.sleep(secs)
-    os.system('cmd /c "mpv \"{}\""'.format(
+    os.system('mpv "{}" --no-audio-display'.format(
         track_path
     ))
 
