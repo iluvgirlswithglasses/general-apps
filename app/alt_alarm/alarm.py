@@ -1,8 +1,4 @@
-from pydub import AudioSegment
-from pydub.utils import make_chunks
-from pyaudio import PyAudio
-from threading import Thread
-from datetime import datetime, timedelta
+
 import time
 import os
 
