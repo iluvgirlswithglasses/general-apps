@@ -1,4 +1,4 @@
-
+from datetime import datetime, timedelta
 import time
 import os
 
@@ -21,11 +21,7 @@ def run(secs: int, track_path: str):
 
 
 if __name__ == '__main__':
-    while True:
-        try:
-            alarm_cd = calc_time(input("Alarm at (HHMM)(24h format): "))
-            track_path = input("Alarm sound: ")
-            print(f"alarm is set for {alarm_cd} secs !")
-            run(alarm_cd, track_path)
-        except:
-            print("ERROR !")
+    alarm_cd = calc_time(input("Alarm at (HHMM)(24h format): "))
+    track_path = input("Alarm sound: ")
+    print(f"alarm is set for {alarm_cd} secs !")
+    run(alarm_cd, track_path)
