@@ -1,12 +1,19 @@
+
 cách dùng:
 
-	Ghi các thư mục cần compress thành từng hàng trong '_inp/',
+	ghi các thư mục cần compress thành từng hàng trong '_inp/',
 	mỗi thư mục đó cần có một thư mục con tên 'src/'
 
 	ffmpeg_compress sẽ nén toàn bộ files trong 'src/' rồi lưu vào trong thư mục cha
 
 
+lưu ý:
+
+	vì một lý do nhảm nhí nào đó mà phiên bản windows rất thường xuyên bị lỗi font
+	khuyến khích chạy phần mềm này trên linux để tránh phát sinh lỗi
+
+
 options and configurations:
 
-	uncomment dòng cuối cùng của 'run.py' để shutdown máy tính sau khi complete compressing
+	uncomment dòng cuối cùng của 'run.py' hoặc 'windows.py' để shutdown máy tính sau khi complete compressing
 

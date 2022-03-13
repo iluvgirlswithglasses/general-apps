@@ -13,7 +13,7 @@ def compress(folder, remove_when_done):
 	src = os.path.join(folder, 'src')
 	for f in os.listdir(src):
 		try:
-			os.system('ffmpeg -i \"{}\" \"{}\"'.format(
+			os.system('cmd /c "ffmpeg -i \"{}\" \"{}\""'.format(
 				os.path.join(src, f),
 				os.path.join(folder, f)
 			))
@@ -32,9 +32,9 @@ def handle_line(folder, remove_when_done):
 			pass
 
 def main():
-	for folder in open('_inp/keep_after_compress.inp', 'r', encoding='utf-8'):
+	for folder in open('_inp\\keep_after_compress.inp', 'r', encoding='utf-8'):
 		handle_line(folder, False)
-	for folder in open('_inp/delete_after_compress.inp', 'r', encoding='utf-8'):
+	for folder in open('_inp\\delete_after_compress.inp', 'r', encoding='utf-8'):
 		handle_line(folder, True)
 
 
