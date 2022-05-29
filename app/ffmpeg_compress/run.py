@@ -41,4 +41,4 @@ def main():
 
 if __name__ == '__main__':
 	main()
-	# os.system('cmd /c "shutdown /s /t 0"')
+	# os.system('shutdown 0')

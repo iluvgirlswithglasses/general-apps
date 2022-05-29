@@ -1,8 +1,9 @@
 -- about:config
-toolkit.legacyUserProfileCustomizations.stylesheets	true
-layout.css.moz-document.content.enabled			true
+toolkit.legacyUserProfileCustomizations.stylesheets true
+layout.css.moz-document.content.enabled             true
 
 -- loc	
+~/.mozilla/firefox/
 C:\Users\luuna\AppData\Roaming\Mozilla\Firefox\Profiles
 
 -- ref
