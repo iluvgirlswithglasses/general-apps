@@ -1,1 +1,0 @@
-Start-Process "C:\Program Files\UniKey\UnikeyNT.exe"

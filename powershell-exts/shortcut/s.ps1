@@ -1,1 +1,0 @@
-$env:path ="$($env:path);."

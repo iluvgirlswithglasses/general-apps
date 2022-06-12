@@ -134,7 +134,7 @@ int main() {
         res = res + cr;
     }
     // returns
-    string cmd = "xsel --clipboard \"" + res + "\"";
+    string cmd = "echo \"" + res + "\" | xsel --clipboard";
     system(cmd.c_str());
     cout << "copied to clipboard!\n";
     return 0;
