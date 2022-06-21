@@ -15,8 +15,8 @@ def compress(audio_stream, subtitle_stream, folder, remove_when_done):
 	src = os.path.join(folder, 'src')
 	for f in os.listdir(src):
 		try:
-            # config things here
-            os.system('ffmpeg -i \"{}\" -map 0:v:0 -map 0:a:{} -map 0:s:{} -c:s copy \"{}\"'.format(
+			# config things here
+			os.system('ffmpeg -i \"{}\" -map 0:v:0 -map 0:a:{} -map 0:s:{} -c:s copy \"{}\"'.format(
 				os.path.join(src, f),
 				audio_stream,
 				subtitle_stream,
@@ -42,10 +42,10 @@ def main():
 	# each line in these folder are written in this format:
 	# {audio-stream}\{subtitle-stream}\{directory location}
 
-    # files here are kept after compression
+	# files here are kept after compression
 	for line in open('inp/keep-alt.inp', 'r', encoding='utf-8'):
 		handle_line(line, False)
-    # files here are deleted after compression
+	# files here are deleted after compression
 	for line in open('inp/del-alt.inp', 'r', encoding='utf-8'):
 		handle_line(line, True)
 
