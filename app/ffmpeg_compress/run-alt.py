@@ -1,7 +1,7 @@
 import os
 from datetime import date
 
-// config everything at line 19
+# config everything at line 19
 
 def leave_note(folder):
 	today = date.today()
@@ -15,7 +15,7 @@ def compress(audio_stream, subtitle_stream, folder, remove_when_done):
 	src = os.path.join(folder, 'src')
 	for f in os.listdir(src):
 		try:
-            // config things here
+            # config things here
             os.system('ffmpeg -i \"{}\" -map 0:v:0 -map 0:a:{} -map 0:s:{} -c:s copy \"{}\"'.format(
 				os.path.join(src, f),
 				audio_stream,
