@@ -32,9 +32,11 @@ def handle_line(folder, remove_when_done):
 			pass
 
 def main():
-	for folder in open('_inp/keep_after_compress.inp', 'r', encoding='utf-8'):
+    # files here are kept after compression
+	for folder in open('inp/keep.inp', 'r', encoding='utf-8'):
 		handle_line(folder, False)
-	for folder in open('_inp/delete_after_compress.inp', 'r', encoding='utf-8'):
+    # files here are deleted after compression
+	for folder in open('inp/del.inp', 'r', encoding='utf-8'):
 		handle_line(folder, True)
 
 
