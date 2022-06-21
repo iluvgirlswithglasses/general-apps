@@ -11,7 +11,7 @@ def leave_note(folder):
 
 def compress(folder, remove_when_done):
 	src = os.path.join(folder, 'src')
-	for f in os.listdir(src):
+	for f in sorted(os.listdir(src)):
 		try:
 			os.system('ffmpeg -i \"{}\" \"{}\"'.format(
 				os.path.join(src, f),
